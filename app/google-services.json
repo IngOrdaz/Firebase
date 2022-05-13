@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "148754076599",
+    "project_id": "moviles-7a5e3",
+    "storage_bucket": "moviles-7a5e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148754076599:android:6d29b76833103c86face32",
+        "android_client_info": {
+          "package_name": "com.nbd.firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148754076599-kcj3vjl4uauf2n467addeu4ml8htvcfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAef7ObyHzBKHUtswmSP3M5leR-bISd0gM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148754076599-kcj3vjl4uauf2n467addeu4ml8htvcfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
