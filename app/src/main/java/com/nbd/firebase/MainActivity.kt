@@ -14,14 +14,20 @@ class MainActivity : AppCompatActivity() {
         val database=Firebase.database
         val myRef=database.reference
 
+        //ejemplos de clase
 //        myRef.child("ejemplo").child("1").setValue(Card("1","rojo","corazones"))
 //
 //        myRef.child("ejemplo").child("2").setValue(Card("2","negro","corazones"))
 
-        myRef.child("ejemplo").get().addOnSuccessListener { response ->
-            Log.d("firebaseResponse",response.value.toString())
+        //mis ejemplos propios
+//        myRef.child("students").child("1").setValue(Students("001","José Nicolás","Martínez","Rincón","4432451982"))
+//        myRef.child("students").child("2").setValue(Students("002","Mariana","González","Bustamante","4431005549"))
+//        myRef.child("students").child("3").setValue(Students("003","José Rubén","Montañez","Vazquez","4432569855"))
+
+        myRef.child("students").child("1").get().addOnSuccessListener { response ->
+            Log.d("studentsResponse",response.value.toString())
         }.addOnFailureListener{
-            Log.e("firebaseResponse","error getting data",it)
+            Log.e("studentsResponse","error getting data",it)
         }
 
     }
